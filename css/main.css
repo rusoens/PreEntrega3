@@ -1,0 +1,162 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Capitalist";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  background-color: blue;
+  color: white;
+}
+body li {
+  list-style-type: none;
+}
+body .headerIndex {
+  flex-direction: column;
+}
+body .headerIndex #logoPrincipal {
+  height: 250px;
+}
+body .menuIndex {
+  flex-direction: row;
+}
+@media (max-width: 480px) {
+  body .menuIndex {
+    flex-direction: column;
+  }
+}
+body .btn-primary {
+  background-color: darkblue;
+  border: 3px solid white;
+  margin: 5px;
+}
+body footer {
+  margin-top: auto;
+  background-color: darkblue;
+  padding: 0 0;
+  width: 100%;
+}
+body footer ul {
+  margin: 5px;
+  padding-left: 0;
+}
+body footer .logosFooter {
+  height: 16px;
+}
+body .header {
+  background-color: darkblue;
+  padding: 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  vertical-align: middle;
+}
+@media (max-width: 480px) {
+  body .header {
+    justify-content: center;
+  }
+}
+body .header a {
+  text-decoration: none;
+  color: white;
+}
+body .header #logoHeader {
+  height: 30px;
+}
+body .header nav {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+@media (max-width: 480px) {
+  body .header nav {
+    flex-direction: column;
+  }
+}
+body .header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 0;
+  margin-left: 0;
+}
+@media (max-width: 480px) {
+  body .header ul {
+    flex-direction: column;
+  }
+}
+body .header ul li {
+  font-size: 16px;
+  margin: 0;
+  padding: 0px 12px;
+  border-right: 1px solid white;
+  vertical-align: middle;
+}
+@media (max-width: 480px) {
+  body .header ul li {
+    border-bottom: 1px solid white;
+  }
+}
+@media (min-width: 481px) {
+  body .header ul li:last-of-type {
+    border-right: unset;
+  }
+}
+@media (max-width: 480px) {
+  body main {
+    margin: 0 15px;
+  }
+}
+@media (min-width: 481px) {
+  body main {
+    margin: 0 100px;
+  }
+}
+body main .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body main .formulario .mb-3 {
+  width: 300px;
+}
+body main .mainNV {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+body main .mainNV .NV {
+  background-color: darkblue;
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 30px;
+  padding: 10px;
+}
+body main .mainSB {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+body main .mainSB .SB {
+  background-color: darkblue;
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 30px;
+  padding: 10px;
+}
+body main .mainSB .SB ul {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
